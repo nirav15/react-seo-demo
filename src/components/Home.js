@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Navbar from "./Navbar";
-import image from "../images/1689367378166.jpeg"
 
 function Home() {
   return (
@@ -9,10 +8,9 @@ function Home() {
       <HelmetProvider>
         <Helmet>
           <title>Home page</title>
-          <meta name="description" content="This is Home page description." />
           <meta
             property="og:image"
-            content={image}
+            content="https://fastly.picsum.photos/id/466/300/200.jpg?hmac=ynZ9L9zmxdc_vQ-UM_FDRX4tUF-5Ogg8apdMbX1_8sU"
           ></meta>
           <link rel="canonical" href="https://example.com/home-page" />
 
