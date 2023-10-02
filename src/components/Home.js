@@ -8,10 +8,10 @@ function Home() {
       <HelmetProvider>
         <Helmet>
           <title>Home page</title>
-          {/* <meta
+          <meta
             property="og:image"
             content="https://fastly.picsum.photos/id/466/300/200.jpg?hmac=ynZ9L9zmxdc_vQ-UM_FDRX4tUF-5Ogg8apdMbX1_8sU"
-          /> */}
+          />
           <link rel="canonical" href="https://example.com/home-page" />
 
           <meta property="og:title" content="This is Home page " />
