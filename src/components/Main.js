@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 function Main() {
   return (
     <>
-      <HelmetProvider>
+      {/* <HelmetProvider>
         <Helmet>
           <title>Main page</title>
           <meta name="description" content="This is main page description." />
@@ -25,7 +25,7 @@ function Main() {
           <h3>This is main page</h3>
           <Navbar />
         </div>
-      </HelmetProvider>
+      </HelmetProvider> */}
     </>
   );
 }
