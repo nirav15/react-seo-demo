@@ -21,11 +21,11 @@ function Main() {
             content="main page redirect to about page"
           />
         </Helmet>
-        <div className="container">
-          <h3>This is main page</h3>
-          <Navbar />
-        </div>
       </HelmetProvider> */}
+      <div className="container">
+        <h3>This is main page</h3>
+        <Navbar />
+      </div>
     </>
   );
 }
