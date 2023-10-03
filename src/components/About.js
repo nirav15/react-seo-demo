@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 function About() {
   return (
     <>
-      {/* <HelmetProvider>
+      <HelmetProvider>
         <Helmet>
           <title>About page</title>
           <meta name="description" content="This is about page description." />
@@ -21,7 +21,7 @@ function About() {
             content="decription page redirect home page "
           />
         </Helmet>
-      </HelmetProvider> */}
+      </HelmetProvider>
       <div className="container">
         <h3>This is about page</h3>
         <Navbar />

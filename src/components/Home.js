@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 function Home() {
   return (
     <>
-      {/* <HelmetProvider>
+      <HelmetProvider>
         <Helmet>
           <title>Home page</title>
 
@@ -23,7 +23,7 @@ function Home() {
           <link rel="canonical" href="https://example.com/home-page" />
 
         </Helmet>
-      </HelmetProvider> */}
+      </HelmetProvider>
       <div className="container">
         <h3>This is Home page</h3>
         <Navbar />
